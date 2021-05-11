@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;700;800&display=swap');
+
+.rubik {
+    font-family: Roboto !important;
+}
+#form {
+    background: white;
+    padding: 25px;
+    border-radius: 14px;
+    border: 2px solid #14756a23;
+}

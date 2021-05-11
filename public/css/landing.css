@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700;800&display=swap');
+body {
+    background-color: #ffffff;
+    font-family: "Josefin Sans"!important;
+}
+.jose {
+    font-family: "Josefin Sans"!important;
+}
+.container {
+    max-width: 80% !important;
+}
+.bg-main {
+    background: #17D8E2 !important;
+}
+.main-color {
+    color: #17D8E2 !important;
+}
+.logo {
+    height: 50px;
+}
+.padded {
+    padding: 40px 40px 40px 40px;
+}
+.padded-y {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.padded-x {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.hero {
+    margin-top: 100px;
+}
+input.form-control {
+    background: #8080802b;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-radius: 45px;
+    padding-left: 31px;
+    transition: .5s;
+}
+input.form-control:hover {
+    background: #f8f9fa;
+    transition: .5s;
+}
+input.form-control:focus {
+    box-shadow: 0px 0px 0px 0px !important;
+    border: 1px solid #17D8E2;
+}
+.btn-login {
+    border-radius: 24px;
+    background: #17d8e2;
+    color: white;
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+.btn-login:hover {
+    background: white;
+    color: #17d8e2;
+    border: 1px solid #17d8e2;
+}
+.hero-text {
+    font-size: 40px;
+}
+.feature-text {
+    font-size: 60px !important;
+    color: #17D8E2;
+}
+
+@media screen and (max-width: 1200px) {
+    .logo-hero {
+        height: 200px !important;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .feature-text {
+        font-size: 26px !important;
+        color: #17D8E2;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .feature-image {
+        max-width: 100%;
+        height: 250px !important;
+    }
+}
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 100% !important;
+    }
+    .feature-text {
+        font-size: 30px !important;
+    }
+    .card {
+        margin-top: 20px;
+    }
+    .h4 {
+        font-size: 18px;
+    }
+    .padded {
+        padding: 20px;
+    }
+    .container.padded-y.hero {
+        margin-top: -10px !important;
+    }
+    .hero-text {
+        font-size: 24px;
+    }
+    .hero-sub-text {
+        margin-bottom: -30px;
+    }
+}
